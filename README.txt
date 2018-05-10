@@ -2,7 +2,7 @@ Computer languages oftern required a way to dynamically allocate memory, which m
 
 Memory Management is initialize with 3 slot of 2-bit memory tracking known as memory system header: Next free memory index, In-use memory head, and Used memory head. Memory block structure that will be allocate after memory system structure included 3 section: first section hold memory size, second section hold the last memory header index, third section hold the next available memory index, and final fourth section will be amount of 2-bit block memory size.
 
-EXAMPLE:
+Example of how the code operate for allocating memory:
 
 -- Empty memory Table
 
